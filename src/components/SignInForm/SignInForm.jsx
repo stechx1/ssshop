@@ -1,6 +1,6 @@
 import { Checkbox, Input } from 'antd';
 import { useState } from 'react';
-import { Button } from './Button';
+import { Button } from '..';
 import { Link } from 'react-router-dom';
 export const SignInForm = () => {
   const [passwordVisible, setPasswordVisible] = useState();
@@ -25,7 +25,10 @@ export const SignInForm = () => {
         <Checkbox className='text-gray-600' onChange={() => ''}>
           Remember Me
         </Checkbox>
-        <p className='font-bold text-sm'>Forgot Password? </p>
+
+        <p className='font-bold text-sm hover:underline cursor-pointer'>
+          Forgot Password?{' '}
+        </p>
       </div>
 
       <Button>Sign In</Button>

@@ -1,5 +1,5 @@
 import signUpImg from '../assets/signup-img.png';
-import { SignupForm } from '../components/SignupForm';
+import { SignupForm } from '../components';
 const Signup = () => {
   return (
     <div className='h-screen flex gap-8 justify-between items-center'>

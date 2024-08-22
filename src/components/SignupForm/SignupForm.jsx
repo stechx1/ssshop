@@ -1,6 +1,6 @@
 import { Checkbox, Input } from 'antd';
 import { useState } from 'react';
-import { Button } from './Button';
+import { Button } from '..';
 import { Link } from 'react-router-dom';
 export const SignupForm = () => {
   const [passwordVisible, setPasswordVisible] = useState();

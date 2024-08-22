@@ -1,11 +1,10 @@
 import signUpImg from '../assets/signup-img.png';
-import { SignInForm } from '../components/SignInForm';
+import { SignInForm } from '../components';
 
 const SignIn = () => {
   return (
     <div className='h-screen flex gap-8 justify-between items-center'>
       <img
-    
         src={signUpImg}
         alt='sign-up img'
         className='h-full w-1/2 object-cover'
@@ -16,6 +15,6 @@ const SignIn = () => {
       </div>
     </div>
   );
-}
+};
 
-export default SignIn
+export default SignIn;

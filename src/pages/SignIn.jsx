@@ -3,14 +3,14 @@ import { SignInForm } from '../components';
 
 const SignIn = () => {
   return (
-    <div className='h-screen flex gap-8 justify-between items-center'>
+    <div className='h-screen flex flex-col md:flex-row gap-8 justify-between items-center'>
       <img
         src={signUpImg}
         alt='sign-up img'
-        className='h-full w-1/2 object-cover'
+        className='md:h-full md:w-1/2 object-cover'
       />
 
-      <div className='w-1/2 flex justify-center'>
+      <div className='md:w-1/2 flex justify-center mb-6'>
         <SignInForm />
       </div>
     </div>
